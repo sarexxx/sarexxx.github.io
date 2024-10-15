@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1000px;
+    height: 100vh;
+    background-color: black;
+    margin: 0 auto;
+}
+
+        
+    .gallery-name{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 28px;
+    color: red;
+
+
+    }
+    
+    .gallery{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+
+.gallery__item{
+    width: 250px;
+}
+@media screen and (max-width: 390px){
+   .container{
+    background-color:darkred ;
+    width: auto;
+    height: auto;
+   }
+    .gallery{
+        flex-direction: column;
+        align-items: center;
+    }
+    .gallery__item{
+        margin-bottom: 25px;
+    }
+   } 
